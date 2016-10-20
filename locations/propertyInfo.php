@@ -25,11 +25,11 @@
 		echo "<h1>{$row["building_address"]}</h1>";
 		echo "<h3>Property Information</h3>";
 		echo "<p align=\"center\">";
-		echo "<table>";
-			echo "<tr><td><b>Block: </b>{$row["block"]}</td><td><b>Lot: </b>{$row["lot"]}</td><td><b>Zip Code: </b>{$row["zip_code"]}</td></tr>";
-			echo "<tr><td><b>City: </b>{$row["city"]}</td><td><b>Neighborhood: </b>{$row["neighborhood"]}</td><td><b>Police District: </b>{$row["police_district"]}</td></tr>";
-			echo "<tr><td><b>Council District: </b>{$row["council_district"]}</td><td><b>Longitude: </b>{$row["longitude"]}</td><td><b>Latitude: </b>{$row["latitude"]}</td></tr>";
-			echo "<tr><td><b>Owner: </b>{$row["owner"]}</td><td><b>Use: </b>{$row["use"]}</td><td><b>Mailing Address: </b>{$row["mailing_address"]}</td></tr>";
+		"<table>";
+			echo "<td><b><li>Block: </b>{$row["block"]}</li></td><td><b><li>Lot: </b>{$row["lot"]}</li></td><td><b><li>Zip Code: </b>{$row["zip_code"]}</li></td>";
+			echo "<td><b><li>City: </b>{$row["city"]}</li></td><td><b><li>Neighborhood: </b>{$row["neighborhood"]}</li></td><td><b><li>Police District: </b>{$row["police_district"]}</li></td>";
+			echo "<td><b><li>Council District: </b>{$row["council_district"]}</li></td><td></tr>";
+			echo "<td><b><li>Owner: </b>{$row["owner"]}</li></td><td><b><li>Use: </b>{$row["use"]}</li></td><td><b><li>Mailing Address: </b>{$row["mailing_address"]}</li></td>";
 		echo "</table>";
 		echo "</p>";
 		echo "</body>";
